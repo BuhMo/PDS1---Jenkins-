@@ -1,7 +1,7 @@
 job('Prueba de docker') {
     description('Prueba de docker')
     scm {
-        git('https://github.com/BuhMo/PDS1---Jenkins-.git', 'main') { node ->
+        git('https://github.com/BuhMo/PDS1---Jenkins-.git', 'master') { node ->
             node / gitConfigName('BuhM0')
             node / gitConfigEmail('corvus164@gmai.com')
         }
